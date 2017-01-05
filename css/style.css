@@ -1,0 +1,492 @@
+@import url(https://fonts.googleapis.com/css?family=Economica);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+*{
+	margin:0;
+	padding: 0;
+	font-family: arial;
+}
+body{
+	background-image: linear-gradient(to right, rgb(76,76,76), rgb(155,155,155));
+}
+#container{
+	margin:auto;
+	width:900px;
+	background:;
+}
+#cabecalho{}
+
+.espacador{
+	margin: 10px 0 0 0
+}
+
+#barra1{
+	width: auto;
+	height: 120px;
+	/*background-color:#e8e8e8;*/
+	
+	
+}
+#logo1{
+	text-align: center;
+	margin: auto;
+	height: 100px;
+	padding: 10px;
+}
+
+/*MSG DE LUTO PARA CHAPECOENSE*/
+#luto{
+	float: right;
+	height: 70px;
+	padding: 10px;
+}
+
+/*NOVO CSS*/
+#menu{
+	margin-top: 10px;
+	
+}
+
+#menu ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;/*#717171;*/
+}
+
+#menu li {
+    float: left;
+}
+
+#menu  li a, .dropbtn {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+	font-family:  'Economica', sans-serif;
+	font-size: 20px;
+}
+
+#menu  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffc000;
+}
+
+#menu  li.dropdown {
+    display: inline-block;
+}
+
+#menu  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#menu  .dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#menu  .dropdown-content a:hover {
+	background-color: #feffaa;
+}
+
+#menu  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#barra2{
+	height: 705px;
+	padding: 10px;
+	background-color: #000;
+	background-image: linear-gradient(to right, rgb(255,255,255), rgb(221,221,221));
+	border: 1px solid #838383;
+	/*background-image: linear-gradient(to bottom, #fafafa, #eeeeee);*/
+}
+
+
+#cont-player{
+	background-image: url(../images/tunning3.png);
+	background-color: #212121;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-size: 80px;
+	padding: 30px 10px 30px 10px;
+	
+}
+#cont-player ul{
+	text-align: center;
+}
+
+#cont-player ul li{
+	list-style-type: none;
+}
+
+#cont-player ul li a{
+	color: #fff;
+	background-color: #ffc000;
+	box-shadow: 4px 4px 4px #000;
+	text-decoration: none;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+	text-shadow: 2px 2px 2px #000;
+	padding: 20px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#cont-player ul li a:hover{
+	background-color: #fff;
+	color: #000;
+	text-shadow: none;
+	box-shadow: none;
+	
+}
+
+#barra2 h1{
+	color: #fff;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	background-color: #ffc000;
+	margin: 10px 0 10px 0;
+	text-shadow: 1px 1px 1px #000;
+	padding: 10px;
+	font-size: 20px;
+}
+#title-rs{
+	width: 690px;
+}
+
+/*
+#text-aovivo {
+	color: #000;
+	font-family:'Economica', sans-serif;
+	font-size: 28px;
+	padding: 5px;
+	
+}
+#link-aovivo{
+	text-decoration: none;
+}
+
+#link-aovivo:hover #text-aovivo{
+	color: #fff;
+	font-weight: bold;
+}
+*/
+#apps{
+	width: 630px;
+	text-align: center;
+	background-color: #717171;
+	padding: 40px;
+}
+#apps ul li{
+	display: inline-block;
+}
+#apps ul li a{
+	width: 50px;
+	height: 50px;
+	padding: 30px 30px;
+}
+#apps ul li a:hover{
+	background-color: #ffc000;
+}
+
+#android-link a, #ios-link a{
+	background-size: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+#android-link a{
+	background-image: url(../images/android-logo.png);
+}
+#android-link a:hover{
+	background-image: url(../images/android-logo-b.png);
+}
+#ios-link a{
+	background-image: url(../images/ios-logo.png);
+}
+#ios-link a:hover{
+	background-image: url(../images/ios-logo-b.png);
+}
+
+#prog1{
+	background-image: url(../images/mesa.jpg);
+}
+#prog2{
+	background-image: url(../images/mic.jpg);
+}
+#prog3{
+	background-image: url(../images/noar.jpg);
+}
+.prog{
+	float: left;
+	margin: 10px 10px 0 0;
+	width: 229px;
+	height: 435px;
+	background-position: center;
+	color: #fff;
+	
+	
+}
+.prog:hover{
+	background-size: 235px;
+}
+.parag-prog{
+	margin: 10px;
+	font-family: 'Economica', sans-serif; 
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#anc_lat{
+	width: 160px;
+	height: 600px;
+	background-color: #000;
+	float: right;
+	margin-top: -155px;
+}
+
+#anuncio1{
+	height: 100px;
+}
+
+#news-title{
+	padding: 20px;
+	background-image: linear-gradient(to bottom, #ffd674, #ffb400);
+	font-family: 'Fjalla One', sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	vertical-align: middle;
+	text-shadow: 1px 1px 1px #000;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#news{
+	height: 900px;
+	background-color: #c5c0c0;
+	width: 900px;
+	height: auto;
+	margin: 0 0 10px 0;
+}
+
+ul#news-master{
+	width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#news-master li{
+	float: left;
+	width: 288px;
+	height: 200px;
+	margin: 1px;
+	border: 5px solid #fff;
+	background-color: #fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0, .4);
+	
+}
+/* ofuscador das not*/
+.titulo-noticia{
+	float: left;
+	background-color: rgba(255,255,255, .3);
+	padding: 10px;
+	width: 268px;
+	height: 180px;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	transition: 0.5s;
+}
+.titulo-noticia:hover{
+	background-color: rgba(0,0,0, .0);
+}
+
+ul#news-master li#new1{
+	background: url('https://i1.wp.com/www.edvam.com.br/wp-content/uploads/2016/12/image-1.gif?resize=800%2C445');
+	background-size: 288px 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+ul#news-master li#new2{
+	background: url('https://i2.wp.com/www.edvam.com.br/wp-content/uploads/2016/12/IMG_8431.jpg?resize=800%2C445');
+	background-size: 288px 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+ul#news-master li#new3{
+	background: url('https://i2.wp.com/www.edvam.com.br/wp-content/uploads/2016/12/image-21.jpg?resize=800%2C445');
+	background-size: 288px 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+ul#news-master li#new4{
+	background: url('https://i2.wp.com/www.edvam.com.br/wp-content/uploads/2016/12/images-4.jpg?resize=276%2C183');
+	background-size: 288px 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+ul#news-master li#new5{
+	background: url('https://i1.wp.com/www.edvam.com.br/wp-content/uploads/2016/12/d48af1139082b592fe191498e674b8aba08681c3-4-768x432.jpg?resize=768%2C432');
+	background-size: 288px 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+ul#news-master li#new6{
+	background: url('https://i0.wp.com/www.edvam.com.br/wp-content/uploads/2016/12/naom_585518dc8982f.jpg?resize=800%2C445');
+	background-size: 288px 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.share-face{
+	position: relative;
+	float: right;
+	width: 45px;
+	height: 25px;
+	margin: -35px 10px 0 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	opacity: 0.7;
+}
+
+.share-twitter{
+	position: relative;
+	float: right;
+	width: 45px;
+	height: 25px;
+	margin: -35px 57px 0 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	opacity: 0.7;
+}
+.share-plus{
+	position: relative;
+	float: right;
+	width: 45px;
+	height: 25px;
+	margin: -35px 104px 0 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	opacity: 0.7;
+}
+/*======= FORMATAÇAO DA REFLEXÃO ================================================*/
+
+/*======= CONTAINER DA FRASE ================================================*/
+#frase-do-dia{
+	width: auto;
+	background-image: linear-gradient(to right, rgb(255,255,255), rgb(221,221,221));
+	border: 1px solid #838383;
+	clear: both;
+	margin: 10px 0 10px 0;
+	padding: 30px;
+}
+/*======= TÍTULO ================================================*/
+.title2{
+	color: #0072ff;
+	font-family: 'Economica', sans-serif;
+	font-size: 35px;
+}
+/* ========== FRASE ===========================*/
+#frase-do-dia p{
+	font-family: 'Economica', sans-serif;
+	font-size: 18px;
+	
+}
+/*======= AUTOR DA FRASE ======================================*/
+#frase-do-dia p span{
+	font-family: 'Economica', sans-serif;
+	font-size: 25px;
+	font-weight: italic;
+}
+/* ========= FORMATAÇÃO DO CONTATO -==============================================*/
+#contato{
+	width: auto;
+	height: auto;
+	clear: both;
+	background-image: linear-gradient(to right, rgb(255,255,255), rgb(221,221,221));
+	border: 1px solid #838383;
+	padding: 30px;
+	margin-top: 10px;
+	font-family: 'Economica', sans-serif;
+}
+
+.cont1{
+	font-weight: bold;
+	font-family: 'Economica', sans-serif;
+}
+.cont-full{
+	font-family: 'Economica', sans-serif;
+	font-size: 25px;
+}
+.cont-full a{
+	font-family: 'Economica', sans-serif;
+	text-decoration: none;
+	color: #000;
+}
+.cont-full a:hover{
+	color: #ff9600;
+	text-decoration: underline;
+}
+
+footer{
+	width: auto;
+	height: auto;
+	clear: both;
+	background-image: linear-gradient(to right, rgb(255,255,255), rgb(221,221,221));
+	text-align: center;
+	padding: 20px;
+	margin-top: 10px;
+	font-size: 19px;
+	border: 1px solid #838383;
+}
+
+#text-rodape{
+	font-family: 'Economica', sans-serif; 
+}
+footer p {
+	color: #0072ff;
+	font-family: 'Economica', sans-serif; 
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#link-desenvolverdor{
+	font-family: 'Economica', sans-serif; 
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	float: left;
+	background-color: #717171;
+}
+ #link-desenvolverdor a{
+	 font-family: 'Economica', sans-serif; 
+	 color: #fff;
+	 text-decoration: none;
+ }
+ #link-desenvolverdor a:hover{
+	 color: #ff9600;
+	 font-weight: bold;
+ }
